@@ -1,0 +1,76 @@
+.crypto-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    min-width: 1000px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  
+    thead {
+      background-color: #009879;
+      color: #ffffff;
+      text-align: left;
+      font-weight: bold;
+    }
+  
+    th,
+    td {
+      padding: 12px 15px;
+
+      a {
+        text-decoration: none;
+        color: #45a049;
+      }
+    }
+  
+    tbody tr {
+      border-bottom: 1px solid #dddddd;
+    }
+  
+    tbody tr:nth-of-type(even) {
+      background-color: #32363d;
+    }
+  
+    tbody tr:last-of-type {
+      border-bottom: 2px solid #009879;
+    }
+  
+    .crypto-info {
+      display: flex;
+      align-items: center;
+  
+      .crypto-logo {
+        width: 24px;
+        height: 24px;
+        margin-right: 10px;
+      }
+  
+      .crypto-name {
+        font-weight: bold;
+        display: block;
+      }
+  
+      .crypto-symbol {
+        color: #555;
+        display: block;
+      }
+  
+      .buy-button {
+        margin-left: 10px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 12px;
+  
+        &:hover {
+          background-color: #45a049;
+        }
+      }
+    }
+  }
+  
