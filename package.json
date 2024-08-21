@@ -1,7 +1,6 @@
 {
   "name": "crypto-app",
   "version": "0.1.0",
-  "homepage": "https://altinaliu.githup.io/crypto-app",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
